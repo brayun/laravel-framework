@@ -1,0 +1,23 @@
+{
+    "name": "brayun/framework",
+    "description": "brayun framework base laravel",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.5.*",
+        "brayun/installers": "^1.0",
+        "prettus/l5-repository": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ethan",
+            "email": "ethan@brayun.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Brayun\\Foundation\\": "src/"
+        }
+    }
+}
